@@ -11,10 +11,12 @@ I build software and the tests that keep it working.
 
 ## Projects
 
-- **[TCG Tournament Manager](https://github.com/nchiamsachang/tcg-tournament-manager)**: C++/Qt desktop app for the Bear TCG club, with regression and UI test suites
-- **[Steam Game Recommender](https://github.com/nchiamsachang/Steam-Recommender-System-Linear-Algebra)**: recommendations from 41 million Steam reviews
-- **[Game Engine Simulation Benchmark](https://github.com/nchiamsachang/Game-Engine-Simulation-Benchmark)**: C# versus Python, with shared boundary tests
-- **[E-Book Storefront](https://github.com/nchiamsachang/First-store-Web-Technologies)**: JavaScript cart with PHP/MySQL checkout
+<p>
+<a href="https://github.com/nchiamsachang/tcg-tournament-manager"><img src="cards/tcg-tournament-manager.svg" width="49%" alt="TCG Tournament Manager: Desktop app for running trading card game tournaments, with regression and UI test suites"></a>
+<a href="https://github.com/nchiamsachang/Steam-Recommender-System-Linear-Algebra"><img src="cards/Steam-Recommender-System-Linear-Algebra.svg" width="49%" alt="Steam Game Recommender: Game recommendations built on 41 million Steam reviews"></a>
+<a href="https://github.com/nchiamsachang/Game-Engine-Simulation-Benchmark"><img src="cards/Game-Engine-Simulation-Benchmark.svg" width="49%" alt="Game Engine Benchmark: The same game-engine update loop in C# and Python, with shared boundary tests"></a>
+<a href="https://github.com/nchiamsachang/First-store-Web-Technologies"><img src="cards/First-store-Web-Technologies.svg" width="49%" alt="E-Book Storefront: E-book store with a JavaScript cart and PHP/MySQL checkout"></a>
+</p>
 
 ## Languages
 

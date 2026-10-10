@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 130" width="336" height="130" role="img" aria-label="E-Book Storefront: E-book store with a JavaScript cart and PHP/MySQL checkout">
+<rect x="0.5" y="0.5" width="335" height="129" rx="12" fill="#0d1117" stroke="#30363d"/>
+<g transform="translate(20,20) scale(0.75)" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></g>
+<text x="46" y="35" fill="#3fb950" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600">E-Book Storefront</text>
+<rect x="271" y="18" width="45" height="22" rx="11" fill="#8892bf" fill-opacity="0.15"/>
+<text x="294" y="33" fill="#8892bf" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">PHP</text>
+<text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">E-book store with a JavaScript cart and</text><text x="20" y="90" fill="#c9d1d9" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">PHP/MySQL checkout</text>
+</svg>

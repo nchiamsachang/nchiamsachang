@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 130" width="336" height="130" role="img" aria-label="Game Engine Benchmark: The same game-engine update loop in C# and Python, with shared boundary tests">
+<rect x="0.5" y="0.5" width="335" height="129" rx="12" fill="#0d1117" stroke="#30363d"/>
+<g transform="translate(20,20) scale(0.75)" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></g>
+<text x="46" y="35" fill="#3fb950" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Game Engine Benchmark</text>
+<rect x="279" y="18" width="37" height="22" rx="11" fill="#3fb950" fill-opacity="0.15"/>
+<text x="297" y="33" fill="#3fb950" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">C#</text>
+<text x="20" y="70" fill="#c9d1d9" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">The same game-engine update loop in C# and</text><text x="20" y="90" fill="#c9d1d9" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">Python, with shared boundary tests</text>
+</svg>
