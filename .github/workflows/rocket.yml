@@ -1,0 +1,33 @@
+name: Update rocket chart
+
+on:
+  schedule:
+    - cron: "17 6 * * *"    # once a day, 06:17 UTC
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/rocket.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw rocket.svg
+        run: python3 scripts/rocket.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the chart if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rocket.svg
+          git diff --cached --quiet || git commit -m "Update rocket chart"
+          git push
