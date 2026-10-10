@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" width="680" height="260" role="img" aria-labelledby="title desc">
 <title id="title">Contribution chart for nchiamsachang</title>
-<desc id="desc">A line chart of the last 30 days. Days with contributions raise the line and days without lower it slowly. The line is +959% over the last week.</desc>
+<desc id="desc">A line chart of the last 30 days. Days with contributions raise the line and days without lower it slowly. The line is +982% over the last week.</desc>
 <style>
 @keyframes flicker { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
 .flame { animation: flicker 0.3s infinite; }
@@ -10,9 +10,9 @@
 <g transform="translate(606,22) scale(1.8)" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></g>
 <g stroke="#21262d" stroke-width="1"><line x1="40" y1="90" x2="590" y2="90"/><line x1="40" y1="140" x2="590" y2="140"/><line x1="40" y1="190" x2="590" y2="190"/><line x1="40" y1="232" x2="590" y2="232"/></g>
 <text x="24" y="34" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">$NATHAN · 30 days</text>
-<text x="24" y="64" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#e6edf3" font-size="26" font-weight="600">101.6</tspan><tspan fill="#3fb950" font-size="14" dx="10">+959% this week</tspan></text>
-<path d="M46.0,203.5 L62.0,205.0 L78.0,206.5 L94.0,207.9 L110.0,209.2 L126.0,210.4 L142.0,211.6 L158.0,212.6 L174.0,213.7 L190.0,214.6 L206.0,215.5 L222.0,216.4 L238.0,217.1 L254.0,217.9 L270.0,218.6 L286.0,219.3 L302.0,219.9 L318.0,220.5 L334.0,221.0 L350.0,221.5 L366.0,222.0 L382.0,219.1 L398.0,216.3 L414.0,217.1 L430.0,217.8 L446.0,206.3 L462.0,183.4 L478.0,160.4 L494.0,137.4 L510.0,142.9 L526.0,97.0 L526.0,232 L46,232 Z" fill="#3fb950" fill-opacity="0.12"/>
-<path d="M46.0,203.5 L62.0,205.0 L78.0,206.5 L94.0,207.9 L110.0,209.2 L126.0,210.4 L142.0,211.6 L158.0,212.6 L174.0,213.7 L190.0,214.6 L206.0,215.5 L222.0,216.4 L238.0,217.1 L254.0,217.9 L270.0,218.6 L286.0,219.3 L302.0,219.9 L318.0,220.5 L334.0,221.0 L350.0,221.5 L366.0,222.0 L382.0,219.1 L398.0,216.3 L414.0,217.1 L430.0,217.8 L446.0,206.3 L462.0,183.4 L478.0,160.4 L494.0,137.4 L510.0,142.9 L526.0,97.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="24" y="64" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#e6edf3" font-size="26" font-weight="600">103.8</tspan><tspan fill="#3fb950" font-size="14" dx="10">+982% this week</tspan></text>
+<path d="M46.0,203.9 L62.0,205.4 L78.0,206.9 L94.0,208.2 L110.0,209.5 L126.0,210.7 L142.0,211.8 L158.0,212.9 L174.0,213.8 L190.0,214.8 L206.0,215.7 L222.0,216.5 L238.0,217.3 L254.0,218.0 L270.0,218.7 L286.0,219.3 L302.0,219.9 L318.0,220.5 L334.0,221.0 L350.0,221.5 L366.0,222.0 L382.0,219.2 L398.0,216.4 L414.0,217.2 L430.0,217.9 L446.0,206.7 L462.0,184.2 L478.0,161.8 L494.0,139.3 L510.0,144.7 L526.0,97.0 L526.0,232 L46,232 Z" fill="#3fb950" fill-opacity="0.12"/>
+<path d="M46.0,203.9 L62.0,205.4 L78.0,206.9 L94.0,208.2 L110.0,209.5 L126.0,210.7 L142.0,211.8 L158.0,212.9 L174.0,213.8 L190.0,214.8 L206.0,215.7 L222.0,216.5 L238.0,217.3 L254.0,218.0 L270.0,218.7 L286.0,219.3 L302.0,219.9 L318.0,220.5 L334.0,221.0 L350.0,221.5 L366.0,222.0 L382.0,219.2 L398.0,216.4 L414.0,217.2 L430.0,217.9 L446.0,206.7 L462.0,184.2 L478.0,161.8 L494.0,139.3 L510.0,144.7 L526.0,97.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="526.0" cy="97.0" r="4" fill="#3fb950"/>
 <g transform="translate(541.6,76.2) rotate(-8)"><g transform="scale(1.5) translate(-12,-12)" fill="none" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <path class="flame" stroke="#f0883e" d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/>
