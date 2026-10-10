@@ -9,6 +9,10 @@ I build software and the tests that keep it working.
 [![Personal email](https://img.shields.io/badge/Email-Personal-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nathanchiamsachang0@gmail.com)
 [![School email](https://img.shields.io/badge/Email-School-4F2D7F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nchiamsachang@cub.uca.edu)
 
+## Languages
+
+![Languages](langs.svg)
+
 ## Projects
 
 <p>
@@ -17,7 +21,3 @@ I build software and the tests that keep it working.
 <a href="https://github.com/nchiamsachang/Game-Engine-Simulation-Benchmark"><img src="cards/Game-Engine-Simulation-Benchmark.svg" width="49%" alt="Game Engine Benchmark: The same game-engine update loop in C# and Python, with shared boundary tests"></a>
 <a href="https://github.com/nchiamsachang/First-store-Web-Technologies"><img src="cards/First-store-Web-Technologies.svg" width="49%" alt="E-Book Storefront: E-book store with a JavaScript cart and PHP/MySQL checkout"></a>
 </p>
-
-## Languages
-
-![Languages](langs.svg)
