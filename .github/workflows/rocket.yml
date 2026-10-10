@@ -2,8 +2,8 @@ name: Update rocket chart
 
 on:
   schedule:
-    - cron: "17 6 * * *"    # once a day, 06:17 UTC
-  workflow_dispatch:         # lets you run it by hand from the Actions tab
+    - cron: "17 6 * * *"    # daily at 06:17 utc
+  workflow_dispatch:         # allows manual runs
   push:
     branches: [main]
     paths:

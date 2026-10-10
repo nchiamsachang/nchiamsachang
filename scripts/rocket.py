@@ -1,16 +1,5 @@
-"""Draws rocket.svg, the contribution chart shown on the profile README.
-
-The chart is a 30-day line in the style of a stock chart. A day with
-contributions pushes the "price" up, a day without lets it sink slowly, and a
-rocket rides the end of the line.
-
-Run from the repository folder:
-
-    py scripts/rocket.py            needs a GITHUB_TOKEN environment variable
-    py scripts/rocket.py --sample   uses made-up numbers, for a local preview
-
-Only the Python standard library is used.
-"""
+"""draws rocket.svg for the profile readme"""
+# run with --sample for a local preview
 import json
 import math
 import os
@@ -22,9 +11,9 @@ TICKER = "$NATHAN"
 DAYS = 30
 
 START_PRICE = 20.0
-GAIN_PER_CONTRIBUTION = 2.2   # added to the price for each contribution
-DAILY_DECAY = 0.94            # a day off keeps 94% of the price
-FLOOR = 4.0                   # the price never sinks below this
+GAIN_PER_CONTRIBUTION = 2.2   # added per contribution
+DAILY_DECAY = 0.94            # share kept after a day off
+FLOOR = 4.0                   # lowest the price can go
 
 OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "rocket.svg")
 
@@ -47,7 +36,7 @@ query($login: String!) {
 
 
 def fetch_contributions(user, token):
-    """Contribution counts for the last DAYS days, oldest first."""
+    """counts for the last DAYS days, oldest first"""
     body = json.dumps({"query": QUERY, "variables": {"login": user}}).encode("utf-8")
     request = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -66,7 +55,7 @@ def fetch_contributions(user, token):
 
 
 def price_series(counts):
-    """The price before the first day, then the price after each day."""
+    """price before day one, then after each day"""
     price = START_PRICE
     prices = [price]
     for count in counts:
@@ -79,13 +68,13 @@ def price_series(counts):
 
 
 def week_change_percent(prices):
-    """Percent change from a week ago to today, rounded to a whole number."""
+    """percent change over the last week"""
     week_ago = prices[max(0, len(prices) - 8)]
     return round((prices[-1] - week_ago) / week_ago * 100)
 
 
 def draw(counts):
-    """The whole chart as SVG text."""
+    """the chart as svg text"""
     prices = price_series(counts)
     last = len(prices) - 1
 
@@ -106,7 +95,7 @@ def draw(counts):
     colour = GREEN if change >= 0 else RED
     sign = "+" if change >= 0 else ""
 
-    # the rocket points along the last three days of the line
+    # rocket points along the last three days
     back = max(0, last - 3)
     heading = round(math.degrees(math.atan2(end_y - y(prices[back]), end_x - x(back)))) + 90
     rocket_x = end_x + 26 * math.sin(math.radians(heading))
