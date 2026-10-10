@@ -16,11 +16,6 @@ I build software and the tests that keep it working.
 - **[Game Engine Simulation Benchmark](https://github.com/nchiamsachang/Game-Engine-Simulation-Benchmark)**: C# versus Python, with shared boundary tests
 - **[E-Book Storefront](https://github.com/nchiamsachang/First-store-Web-Technologies)**: JavaScript cart with PHP/MySQL checkout
 
-## Tools
+## Languages
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Languages](langs.svg)
