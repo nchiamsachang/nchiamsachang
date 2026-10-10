@@ -46,7 +46,7 @@ def fetch_contributions(user, token):
     with urllib.request.urlopen(request, timeout=30) as response:
         reply = json.load(response)
     if "errors" in reply:
-        raise RuntimeError("GitHub returned an error: " + json.dumps(reply["errors"]))
+        raise RuntimeError("github returned an error: " + json.dumps(reply["errors"]))
 
     weeks = reply["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
     days = [day for week in weeks for day in week["contributionDays"]]
@@ -141,12 +141,12 @@ def main():
     else:
         token = os.environ.get("GITHUB_TOKEN")
         if not token:
-            sys.exit("Set GITHUB_TOKEN, or run with --sample for a preview with made-up numbers.")
+            sys.exit("set GITHUB_TOKEN, or run with --sample for a preview with made-up numbers")
         counts = fetch_contributions(USER, token)
 
     with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
         f.write(draw(counts))
-    print("Wrote rocket.svg from %d days, %d contributions in total." % (len(counts), sum(counts)))
+    print("wrote rocket.svg from %d days, %d contributions in total" % (len(counts), sum(counts)))
 
 
 if __name__ == "__main__":
