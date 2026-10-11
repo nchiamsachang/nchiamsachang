@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" width="680" height="260" role="img" aria-labelledby="title desc">
 <title id="title">Contribution chart for nchiamsachang</title>
-<desc id="desc">A line chart of the last 30 days. Days with contributions raise the line and days without lower it slowly. The line is +1028% over the last week.</desc>
+<desc id="desc">A line chart of the last 30 days. Days with contributions raise the line and days without lower it slowly. The line is +1014% over the last week.</desc>
 <style>
 @keyframes flicker { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
 .flame { animation: flicker 0.3s infinite; }
@@ -10,12 +10,12 @@
 <g transform="translate(606,22) scale(1.8)" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></g>
 <g stroke="#21262d" stroke-width="1"><line x1="40" y1="90" x2="590" y2="90"/><line x1="40" y1="140" x2="590" y2="140"/><line x1="40" y1="190" x2="590" y2="190"/><line x1="40" y1="232" x2="590" y2="232"/></g>
 <text x="24" y="34" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">$NATHAN · 30 days</text>
-<text x="24" y="64" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#e6edf3" font-size="26" font-weight="600">108.2</tspan><tspan fill="#3fb950" font-size="14" dx="10">+1028% this week</tspan></text>
-<path d="M46.0,204.7 L62.0,206.1 L78.0,207.5 L94.0,208.8 L110.0,210.0 L126.0,211.2 L142.0,212.2 L158.0,213.2 L174.0,214.2 L190.0,215.1 L206.0,215.9 L222.0,216.7 L238.0,217.5 L254.0,218.2 L270.0,218.8 L286.0,219.4 L302.0,220.0 L318.0,220.6 L334.0,221.1 L350.0,221.5 L366.0,222.0 L382.0,219.3 L398.0,216.6 L414.0,217.4 L430.0,218.1 L446.0,207.3 L462.0,185.8 L478.0,164.4 L494.0,142.9 L510.0,148.0 L526.0,97.0 L526.0,232 L46,232 Z" fill="#3fb950" fill-opacity="0.12"/>
-<path d="M46.0,204.7 L62.0,206.1 L78.0,207.5 L94.0,208.8 L110.0,210.0 L126.0,211.2 L142.0,212.2 L158.0,213.2 L174.0,214.2 L190.0,215.1 L206.0,215.9 L222.0,216.7 L238.0,217.5 L254.0,218.2 L270.0,218.8 L286.0,219.4 L302.0,220.0 L318.0,220.6 L334.0,221.1 L350.0,221.5 L366.0,222.0 L382.0,219.3 L398.0,216.6 L414.0,217.4 L430.0,218.1 L446.0,207.3 L462.0,185.8 L478.0,164.4 L494.0,142.9 L510.0,148.0 L526.0,97.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="526.0" cy="97.0" r="4" fill="#3fb950"/>
-<g transform="translate(540.9,75.7) rotate(-10)"><g transform="scale(1.5) translate(-12,-12)" fill="none" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-<path class="flame" stroke="#f0883e" d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/>
+<text x="24" y="64" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#e6edf3" font-size="26" font-weight="600">104.0</tspan><tspan fill="#3fb950" font-size="14" dx="10">+1014% this week</tspan></text>
+<path d="M46.0,205.5 L62.0,206.9 L78.0,208.2 L94.0,209.5 L110.0,210.7 L126.0,211.8 L142.0,212.9 L158.0,213.9 L174.0,214.8 L190.0,215.7 L206.0,216.5 L222.0,217.3 L238.0,218.0 L254.0,218.7 L270.0,219.3 L286.0,219.9 L302.0,220.5 L318.0,221.0 L334.0,221.5 L350.0,222.0 L366.0,219.4 L382.0,216.7 L398.0,217.5 L414.0,218.2 L430.0,207.7 L446.0,186.6 L462.0,165.6 L478.0,144.5 L494.0,149.6 L510.0,97.0 L526.0,104.9 L526.0,232 L46,232 Z" fill="#3fb950" fill-opacity="0.12"/>
+<path d="M46.0,205.5 L62.0,206.9 L78.0,208.2 L94.0,209.5 L110.0,210.7 L126.0,211.8 L142.0,212.9 L158.0,213.9 L174.0,214.8 L190.0,215.7 L206.0,216.5 L222.0,217.3 L238.0,218.0 L254.0,218.7 L270.0,219.3 L286.0,219.9 L302.0,220.5 L318.0,221.0 L334.0,221.5 L350.0,222.0 L366.0,219.4 L382.0,216.7 L398.0,217.5 L414.0,218.2 L430.0,207.7 L446.0,186.6 L462.0,165.6 L478.0,144.5 L494.0,149.6 L510.0,97.0 L526.0,104.9" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="526.0" cy="104.9" r="4" fill="#3fb950"/>
+<g transform="translate(545.9,88.2) rotate(5)"><g transform="scale(1.5) translate(-12,-12)" fill="none" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+
 <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
 <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/>
 <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/>
